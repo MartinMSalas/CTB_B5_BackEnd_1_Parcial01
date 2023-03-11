@@ -24,3 +24,59 @@ INSERT INTO odontolodo(numero_matricula, nombre, apellido) VALUES(1, 'Dr', 'Muel
 [2023-03-11 10:27:18] [ INFO ] [DaoOdontologoH2:34] Query executed
 [2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
 [2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:47:19] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:47:19] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 18:25:28] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 18:25:29] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 18:25:29] [ INFO ] [DaoOdontologoH2:38] New odontologo added
+[2023-03-11 18:25:29] [ INFO ] [DaoOdontologoH2:38] New odontologo added
+[2023-03-11 18:45:05] [ INFO ] [DaoOdontologoH2:53] Driver h2 is UP !!!
+[2023-03-11 18:45:06] [ ERROR] [DaoOdontologoH2:73] Columna "ID" no encontrada
+Column "ID" not found; SQL statement:
+SELECT * FROM odontologo WHERE id = ? [42122-214]
+[2023-03-11 18:45:44] [ INFO ] [DaoOdontologoH2:53] Driver h2 is UP !!!
+[2023-03-11 18:45:44] [ ERROR] [DaoOdontologoH2:73] Columna "ID" no encontrada
+Column "ID" not found; SQL statement:
+SELECT * FROM odontologo WHERE id = ? [42122-214]
+[2023-03-11 18:46:46] [ INFO ] [DaoOdontologoH2:52] Driver h2 is UP !!!
+[2023-03-11 18:46:46] [ ERROR] [DaoOdontologoH2:72] Columna "ID" no encontrada
+Column "ID" not found; SQL statement:
+SELECT * FROM odontologo WHERE id = ? [42122-214]
+[2023-03-11 18:48:09] [ INFO ] [DaoOdontologoH2:52] Driver h2 is UP !!!
+[2023-03-11 18:48:32] [ ERROR] [DaoOdontologoH2:72] Columna "ID" no encontrada
+Column "ID" not found; SQL statement:
+SELECT * FROM odontologo WHERE id = ? [42122-214]
+[2023-03-11 18:48:33] [ INFO ] [DaoOdontologoH2:52] Driver h2 is UP !!!
+[2023-03-11 18:48:33] [ INFO ] [DaoOdontologoH2:68] New Odontologo retrieved from DB
+[2023-03-11 19:04:55] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:52] Driver h2 is UP !!!
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:68] New Odontologo retrieved from DB
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:83] Driver h2 is UP !!!
+[2023-03-11 19:04:56] [ INFO ] [DaoOdontologoH2:94] New Odontologo inserted in table
+[2023-03-11 19:05:45] [ INFO ] [DaoOdontologoH2:83] Driver h2 is UP !!!
+[2023-03-11 19:05:45] [ INFO ] [DaoOdontologoH2:94] New Odontologo inserted in table
+[2023-03-11 19:05:51] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 19:05:51] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 19:05:51] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:05:51] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:05:56] [ INFO ] [DaoOdontologoH2:83] Driver h2 is UP !!!
+[2023-03-11 19:05:56] [ INFO ] [DaoOdontologoH2:94] New Odontologo inserted in table
+[2023-03-11 19:06:02] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 19:06:02] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 19:06:02] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:06:02] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:06:41] [ INFO ] [DaoOdontologoH2:83] Driver h2 is UP !!!
+[2023-03-11 19:06:41] [ INFO ] [DaoOdontologoH2:94] New Odontologo inserted in table
+[2023-03-11 19:06:45] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 19:06:45] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 19:06:45] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:06:45] [ INFO ] [DaoOdontologoH2:39] New odontologo added
+[2023-03-11 19:07:26] [ INFO ] [DaoOdontologoH2:52] Driver h2 is UP !!!
+[2023-03-11 19:07:26] [ INFO ] [DaoOdontologoH2:68] New Odontologo retrieved from DB
+[2023-03-11 19:07:33] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 19:07:34] [ INFO ] [DaoOdontologoH2:31] Query executed
+[2023-03-11 19:07:34] [ INFO ] [DaoOdontologoH2:39] New odontologo added to the list
+[2023-03-11 19:07:34] [ INFO ] [DaoOdontologoH2:39] New odontologo added to the list
