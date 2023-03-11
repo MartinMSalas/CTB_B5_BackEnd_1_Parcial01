@@ -22,3 +22,7 @@ INSERT INTO odontolodo(numero_matricula, nombre, apellido) VALUES(1, 'Dr', 'Muel
 [2023-03-11 10:24:10] [ INFO ] [DaoOdontologoH2:34] Query executed
 [2023-03-11 10:27:18] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
 [2023-03-11 10:27:18] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:47:19] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:47:19] [ INFO ] [DaoOdontologoH2:34] Query executed

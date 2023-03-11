@@ -30,6 +30,10 @@ public class OdontologoServiceTest {
     OdontologoService odontologoService = new OdontologoService();
 
     List<Odontologo> odontologoListExpected = new ArrayList<>();
+    Odontologo od1 = new Odontologo(1,"Dr","Muelas");
+    Odontologo od2 = new Odontologo(2,"Dr","Ogas");
+    odontologoListExpected.add(od1);
+    odontologoListExpected.add(od2);
 
     // When
     List<Odontologo> odontologoListObtained = odontologoService.listAll();
@@ -39,7 +43,9 @@ public class OdontologoServiceTest {
       System.out.println(odontologo);
     }
     // Then
-    //Assertions.assertArrayEquals(odontologoListEsperada,odontologoListObtenida);
+
+    Assertions.assertIterableEquals(odontologoListExpected, odontologoListObtained);
+
   }
 
 

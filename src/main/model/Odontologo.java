@@ -1,5 +1,7 @@
 package main.model;
 
+import java.util.Objects;
+
 public class Odontologo {
 
   // Se toma matricula como int, depende del tipo podria llegar a ser String
@@ -47,5 +49,25 @@ public class Odontologo {
             ", nombre='" + nombre + '\'' +
             ", apellido='" + apellido + '\'' +
             '}';
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) return true;
+    if (o == null || getClass() != o.getClass()) return false;
+
+    Odontologo that = (Odontologo) o;
+
+    if (numeroMatricula != that.numeroMatricula) return false;
+    if (!Objects.equals(nombre, that.nombre)) return false;
+    return Objects.equals(apellido, that.apellido);
+  }
+
+  @Override
+  public int hashCode() {
+    int result = numeroMatricula;
+    result = 31 * result + (nombre != null ? nombre.hashCode() : 0);
+    result = 31 * result + (apellido != null ? apellido.hashCode() : 0);
+    return result;
   }
 }

@@ -20,3 +20,7 @@ Table "ODONTOLODO" not found; SQL statement:
 INSERT INTO odontolodo(numero_matricula, nombre, apellido) VALUES(1, 'Dr', 'Muelas') [42102-214]
 [2023-03-11 10:24:10] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
 [2023-03-11 10:24:10] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:27:18] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:27:18] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:41:29] [ INFO ] [DaoOdontologoH2:34] Query executed
