@@ -1,0 +1,22 @@
+[2023-03-11 09:51:48] [ ERROR] [DaoOdontologoH2:54] Violación de indice de Unicidad ó Clave primaria: "PRIMARY KEY ON PUBLIC.DOMICILIO(ID) ( /* key:0 */ 1, 'Dean Funes', '611')"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.DOMICILIO(ID) ( /* key:0 */ 1, 'Dean Funes', '611')"; SQL statement:
+
+
+
+INSERT INTO domicilio(id, calle, numero) VALUES(1, 'Dean Funes', '611') [23505-214]
+[2023-03-11 09:56:09] [ INFO ] [DaoOdontologoH2:36] Levantando el controlador
+[2023-03-11 09:56:09] [ INFO ] [DaoOdontologoH2:51] Ejecutado el Insert del nuevo odontologo efectivamente
+[2023-03-11 09:57:41] [ INFO ] [DaoOdontologoH2:36] Levantando el controlador
+[2023-03-11 09:57:41] [ INFO ] [DaoOdontologoH2:51] Ejecutado el Insert del nuevo odontologo efectivamente
+[2023-03-11 09:59:29] [ INFO ] [DaoOdontologoH2:36] Driver h2 is UP !!!
+[2023-03-11 09:59:29] [ INFO ] [DaoOdontologoH2:51] New Odontologo inserted in table
+[2023-03-11 10:21:48] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:21:48] [ INFO ] [DaoOdontologoH2:34] Query executed
+[2023-03-11 10:23:37] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:23:37] [ ERROR] [DaoOdontologoH2:50] Tabla "ODONTOLODO" no encontrada
+Table "ODONTOLODO" not found; SQL statement:
+
+
+INSERT INTO odontolodo(numero_matricula, nombre, apellido) VALUES(1, 'Dr', 'Muelas') [42102-214]
+[2023-03-11 10:24:10] [ INFO ] [DaoOdontologoH2:22] Driver h2 is UP !!!
+[2023-03-11 10:24:10] [ INFO ] [DaoOdontologoH2:34] Query executed
